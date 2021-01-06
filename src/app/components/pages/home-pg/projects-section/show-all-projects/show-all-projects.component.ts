@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {MobileProjectsComponent} from '../mobile-projects/mobile-projects.component'
 import { projects, heading } from '../../../../shared/arrays/projects/projects';
-
+import { arrayOne } from '../../../../shared/arrays/projects/mobile';
 import {DetailsPgComponent} from '../../../details-pg/details-pg.component'
 import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 import {

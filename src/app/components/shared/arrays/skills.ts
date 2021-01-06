@@ -22,8 +22,8 @@ export const skillsListOne = [
   },
   {
     name: 'ANGULAR',
-    percentage: '50%',
-    barVal: '50',
+    percentage: '80%',
+    barVal: '80',
   },
   {
     name: 'GITHUB',

@@ -325,7 +325,7 @@ export const projectDetails = [
     ],
     // classColOne: 'col-lg-6 overlay adas_colOneDesc colorOne',
     classColTwo:
-      'col-lg-6 mt-5 overlay overlay_qca weather_colTwoLines colorTwo boxShadowP',
+      'col-lg-12 mt-5 overlay overlay_qca weather_colTwoLines colorTwo boxShadowP',
     classDesc: 'desc',
     title: 'What I used',
     array: [
@@ -341,7 +341,7 @@ export const projectDetails = [
       {
         desc: '',
         imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
-        imgUrl: 'assets/images/projects_5/screen1.png',
+        imgUrl: 'assets/images/projects_5/Screen1.png',
         item: ' carousel-item active',
       },
       {

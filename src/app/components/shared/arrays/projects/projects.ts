@@ -9,6 +9,7 @@ import {
 export const projects = [
   {
     mobileProjects: [
+      
       //  --Quick Coaching App--
       {
         id: 1,
@@ -100,6 +101,26 @@ export const projects = [
         ],
       },
       //   -------------------------
+      // ------Porfile------------
+      {
+        id: 5,
+        projectTitle: 'Portfolio',
+        type: 'Web Application',
+        projectsImgUrl: 'assets/images/projects_5/screen1.png',
+        desc: ``,
+        btnVUrl: 'qca',
+        viewBtnUrl: '/qca',
+        btnGUrl: 'https://github.com/RMelvina/RecipesApp.git',
+        target: '_blank',
+        item: 'carousel-item ',
+        // Buttons Array
+        buttons: [
+          {
+            btnName: 'More Details',
+          },
+        ],
+      },
+      // -------------------------
     ],
   },
 ];
