@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import  {carousel} from '../functions/carousel'
+
 
 @Component({
   selector: 'app-carousel',

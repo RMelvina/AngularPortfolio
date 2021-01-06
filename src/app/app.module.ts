@@ -24,7 +24,7 @@ import { CarouselComponent } from './components/shared/carousel/carousel.compone
 
 import { ShowAllProjectsComponent } from './components/pages/home-pg/projects-section/show-all-projects/show-all-projects.component';
 import { CardComponent } from './components/shared/components/card/card.component';
-import { DeclarationComponent } from './components/declaration/declaration.component';
+
 import { WebSectionsComponent } from './components/shared/components/web-sections/web-sections.component';
 
 
@@ -47,14 +47,9 @@ import { WebSectionsComponent } from './components/shared/components/web-section
     SectionOneComponent,
     SectionTwoComponent,
     SectionThreeComponent,
-    CarouselComponent,
-    
+    CarouselComponent,  
     ShowAllProjectsComponent,
-    
     CardComponent,
-    
-    DeclarationComponent,
-    
     WebSectionsComponent
    
   ],

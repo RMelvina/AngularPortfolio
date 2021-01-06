@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { arrayOne } from '../../../../shared/arrays/projects/mobile';
-import { carousel } from '../../../../shared/functions/carousel';
+
 import {
   MatDialog,
   MatDialogRef,
@@ -25,7 +25,7 @@ export class MobileProjectsComponent implements OnInit {
   // Array
   mobileProjects = arrayOne;
 
-  carousel = carousel;
+
 
   img: any;
   title: any;
