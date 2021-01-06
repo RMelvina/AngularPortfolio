@@ -264,7 +264,7 @@ export const projectDetails = [
       },
       {
         btnName: 'Vist',
-        url: 'https://rmelvina.github.io/weather/',
+        url: 'https://rmelvina.github.io/angularportfolio/',
       },
     ],
     descArray: [

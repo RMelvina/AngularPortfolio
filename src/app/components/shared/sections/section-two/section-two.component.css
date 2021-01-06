@@ -54,7 +54,7 @@
 /* ------------- */
 
 /* Flip card */
-.card-box {
+/* .card-box {
   background-color: transparent;
   width: 600px;
   height: 400px;
@@ -88,7 +88,7 @@
   background-color: var(--bgColor);
   transform: rotateX(180deg);
   color: white;
-}
+} */
 /* ----------- */
 /* --------------Section Three-------------------- */
 .overlay {
@@ -124,6 +124,7 @@
 }
 
 /* ----------- */
+/* ---ADAS App----- */
 .adas_colOneDesc {
   font-size: 1.2rem;
   line-height: 1.3rem;
@@ -166,7 +167,7 @@
   top: 30px;
 }
 /* ---------------- */
-/* ----------- */
+/* ----Weather------- */
 .weather_divOneDesc{
   margin-top: 1rem;
   display: flex;
