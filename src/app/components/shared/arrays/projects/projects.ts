@@ -9,7 +9,6 @@ import {
 export const projects = [
   {
     mobileProjects: [
-      
       //  --Quick Coaching App--
       {
         id: 1,

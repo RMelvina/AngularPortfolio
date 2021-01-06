@@ -341,7 +341,7 @@ export const projectDetails = [
       {
         desc: '',
         imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
-        imgUrl: 'assets/images/projects_5/Screen1.png',
+        imgUrl: 'assets/images/projects_5/screen1.png',
         item: ' carousel-item active',
       },
       {
