@@ -1,0 +1,74 @@
+<!-- <h1>Product Details</h1>
+
+<div *ngIf="projectDetail" class="bg-info">
+    <h3>{{ projectDetail.pTitle }}</h3>
+    <p>{{ projectDetail.pDesc }}</p>
+    <ul *ngFor = "let arrays of projectDetail.array">
+        <li>{{arrays}}</li>
+
+    </ul>
+   
+</div> -->
+
+<!-- <router-outlet></router-outlet> -->
+
+<app-navbar [navbarI]="navbarItems" (nextBtn)="nextBtn()" (prevsBtn)="prevBtn()">
+</app-navbar>
+
+
+<div *ngIf="projectDetail">
+
+    <!-- <div *ngFor="let projectDetails of arrayOne ">
+    <div *ngFor="let project of projectDetails.isShow">
+
+        <div *ngIf="projectDetails.isShow ">
+            <app-section-one [title]="project.pTitle" [href]="project.github">
+            </app-section-one>
+            
+            
+            
+            <app-section-two [descOne]="project.pDescOne" [lines]="project.array" [classContainer]="project.class"
+                [title]="project.title" [descArray]="project.descArray" [classDesc]="project.classDesc"
+                [classColTwo]="project.classColTwo">
+            </app-section-two>
+            
+            <app-section-three [imgs]="project.imgsArray" (scrollUp)="scrollUp()">
+            </app-section-three>
+
+        </div>
+    </div>
+
+</div> -->
+
+
+    <!-- <div *ngIf = "projectDetail.array"> -->
+
+    <!-- </div> -->
+
+    <!-- <div *ngIf = "projectDetail.imgsArray"> -->
+
+
+    <app-section-one 
+    [title]="projectDetail.pTitle" 
+    [array] = " projectDetail.buttonsArray">
+    </app-section-one>
+
+
+<!--   *ngFor = "let btnArray of projectDetail.buttonsArray " -->
+    <app-section-two [descOne]="projectDetail.pDescOne" [lines]="projectDetail.array"
+        [classContainer]="projectDetail.class" [title]="projectDetail.title" [descArray]="projectDetail.descArray"
+        [classDesc]="projectDetail.classDesc" [classColTwo]="projectDetail.classColTwo">
+    </app-section-two>
+
+    <div *ngIf="projectDetail.imgsArray">
+        <app-section-three [imgs]="projectDetail.imgsArray" (scrollUp)="scrollUp()">
+        </app-section-three>
+    </div>
+</div>
+
+<!-- </div> -->
+
+<!-- <div *ngIf="webProjects ">
+    <app-web-sections></app-web-sections>
+
+</div> -->

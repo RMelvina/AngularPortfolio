@@ -1,0 +1,27 @@
+
+    <div class="card">
+        <div class="img-container">
+    
+            <div class="overlay">
+                <img src={{webP.projectsImgUrl}} class="img-fluid showImg" alt="">
+            </div>
+            <!-- projectsImgUrl -->
+    
+            <div class="details-container">
+                <span>{{webP.projectTitle}}</span>
+                <button [routerLink]="['/details', webP.id]" (click)="closeDialog.emit()" class="btn moreDBtn mt-4">More detail</button>
+            </div>
+    
+            <!-- <div class="buttons-container">
+                <button [routerLink]="['/details', webP.id]" (click) = "closeDialog.emit()" class="btn moreDBtn">More detail</button>
+            </div> -->
+    
+        </div>
+    
+    
+    
+    
+    </div>
+
+
+

@@ -1,0 +1,126 @@
+@import "../../../../../styles.css";
+.section-three {
+  /* min-height: 100vh; */
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  background-color: black;
+}
+/* .carousel-item .active {
+  display: block;
+} */
+.desc {
+  color: white;
+  font-size: 1.4rem;
+  font-family: var(--fontFamily);
+}
+.imgDesc {
+  font-family: var(--fontFamily);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+/* .carousel-item {
+  box-shadow: 0px 4px 8px 0px #bdbdbd;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: none;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  font-size: 8rem;
+  color: var(--fontColor);
+}
+
+.project-img {
+  width: 20rem;
+  height: 28rem;
+}
+
+.weatherImg{
+  width: 60rem;
+  height: 40rem;
+}
+.carousel {
+  width: 100%;
+}
+.thumb {
+  width: 30rem;
+}
+/* .list-inline-item {
+  width: 100px;
+  height: 100px;
+} */
+/* .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+.carousel-indicators li.active img {
+  opacity: 1;
+}
+.carousel-indicators li:hover img {
+  opacity: 0.75;
+} */
+
+/* ---------------- */
+
+.mainTitle {
+  position: relative;
+  font-size: 3rem;
+  color: white;
+}
+.mainTitle::after {
+  content: "See screens";
+  background-color: black;
+}
+.mainTitle::before {
+  background-color: white;
+}
+
+.arrowUpIcon {
+  font-size: 3rem;
+  color: var(--fontColor);
+  font-weight:600;
+}
+
+.arrowUpbtn {
+  position: relative;
+  left: 40%;
+  background-color: white;
+}
+
+.arrowUpbtn:hover{
+  background: var(--bgColor);
+}
+
+.arrowUpbtn:hover .arrowUpIcon{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---Media Queries */
+/* iPad Pro/ iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Mobiles */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+}
+
+/* Galaxy Fold */
+@media only screen and (min-width: 200px) and (max-width: 280px) {
+  .mainTitle{
+    font-size: 2rem;
+  }
+}

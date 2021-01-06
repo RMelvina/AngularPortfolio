@@ -1,0 +1,13 @@
+@import '../../shared/sections/section-one/section-one.component.css';
+@import '../../shared/sections/section-two/section-two.component.css';
+@import '../../shared/sections/section-three/section-three.component.css';
+@import '../../shared/navbar/navbar.component.css';
+
+.nextBtn{
+    background-color: green;
+    
+}
+.buttons{
+    position: absolute;
+    top: 40%;
+}

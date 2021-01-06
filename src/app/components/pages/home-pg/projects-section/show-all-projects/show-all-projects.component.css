@@ -1,0 +1,27 @@
+@import '../../../../../../styles.css';
+.projectSubTitle{
+    font-family: var(--fontFamily);
+    color: black;
+    font-weight: 900;
+    text-align: center;
+
+}
+.card {
+  min-width: 27%;
+  background-color: black;
+  margin: 1rem;
+}
+.iconClose{
+  position: relative;
+  float: right;
+  color: var(--fontColor);
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/* ::ng-deep .show-all mat-dialog-content  {
+  background-color: rgba(40, 41, 41, 0.878);
+  border-radius: 1rem;
+} */
+
+

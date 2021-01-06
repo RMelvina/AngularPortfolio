@@ -1,0 +1,30 @@
+<div class="justify-content-center" mat-dialog-content >
+   
+  
+   
+    <i class="fa fa-times iconClose" (click) = "closeDialog()"></i>
+
+        
+    <h1 class="projectSubTitle">Mobile Projects</h1>
+       <div class="row" *ngFor="let webProject of webProjects">
+            <div class="col-12  d-flex flex-wrap">
+                <app-card *ngFor="let webP of webProject.mobileProjects" [webP]="webP"
+                 (closeDialog) = "closeDialog()">
+                </app-card>
+            </div>
+       </div>
+
+      
+        <h1 class="projectSubTitle">Web Projects</h1>
+       <div class="row" *ngFor="let webProject of webProjects">
+            <div class="col-12 d-flex flex-wrap">
+                <app-card *ngFor="let webP of webProject.webProjects" [webP]="webP">
+                </app-card>
+            </div>
+       </div>
+
+
+
+
+</div>
+<!-- *ngIf="show" -->

@@ -1,0 +1,262 @@
+<section class="container-fluid skills-section d-flex align-items-center" id="skills">
+   
+    <div class="container">
+        <div class="row mb-5 d-flex justify-content-center align-items-center">
+            <div class="col-12">
+                <h1 class="mainTitle text-center">Skills</h1>
+            </div>
+            <div class="col-lg-6 pr-5" >
+           
+                <div class="bars mt-4 mb-4" *ngFor = "let skillListOne of skillsListOne ">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>{{skillListOne.name}}</span>
+                    <span>{{skillListOne.percentage}}</span>
+                </div>
+                <mat-progress-bar mode="determinate" value={{skillListOne.barVal}}></mat-progress-bar>
+             </div>
+            </div>
+            <div class="col-lg-6" >
+                <div class="bars mt-4 mb-4"  *ngFor = "let skillListTwo of skillsListTwo">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>{{skillListTwo.name}}</span>
+                        <span>{{skillListTwo.percentage}}</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value={{skillListTwo.barVal}}></mat-progress-bar>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- <section class="container-fluid skills-section" id="skills">
+    <h1 class="mainTitle text-center">Skills</h1>
+
+
+    <div class="row p-5 justify-content-center">
+
+        <div class="col-lg-6 col-md-4 col-sm-12 ">
+            <div class="column left">
+             
+                <div class="column left inner">
+                    <h2>Database/ Cloud Storage</h2>
+                    
+                    <div class="bars">
+                        <div class="d-flex justify-content-between info pb-2">
+                            <span>SQL</span>
+                            <span>20%</span>
+                        </div>
+                        <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+                    </div>
+                    
+
+                    
+                    <div class="bars mt-4">
+                        <div class="d-flex justify-content-between info pb-2">
+                            <span>FIREBASE</span>
+                            <span>50%</span>
+                        </div>
+                        <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                    </div>
+                    
+                </div>
+               
+                <div class="column left inner mt-4">
+                    <h2>Frameworks & JS Libraries</h2>
+                    
+                    <div class="bars">
+                        <div class="d-flex justify-content-between info pb-2">
+                            <span>BOOTSTRAP</span>
+                            <span>90%</span>
+                        </div>
+                        <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                    </div>  
+                    <div class="bars mt-4">
+                        <div class="d-flex justify-content-between info pb-2">
+                            <span>REACT</span>
+                            <span>50%</span>
+                        </div>
+                        <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                    </div>
+         
+                    <div class="bars mt-4">
+                        <div class="d-flex justify-content-between info pb-2">
+                            <span>ANGULAR</span>
+                            <span>50%</span>
+                        </div>
+                        <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            
+
+        </div>
+
+        <div class="col-lg-6 col-md-4 col-sm-12 ">
+            <h2>Coding Languages</h2>
+
+            <div class="bars">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>HTML</span>
+                    <span>98%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="98"></mat-progress-bar>
+            </div>
+
+            <div class="bars mt-4">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>ASP.NET CORE</span>
+                    <span>30%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+            </div>
+
+            <div class="bars mt-4">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+            </div>
+
+            <div class="bars mt-4">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>PYTHON</span>
+                    <span>50%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+            </div>
+
+            <div class="bars mt-4">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>JAVASCRIPT</span>
+                    <span>80%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+            </div>
+
+            <div class="bars mt-4">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>JAVA</span>
+                    <span>90%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+            </div>
+
+            <div class="bars mt-4">
+                <div class="d-flex justify-content-between info pb-2">
+                    <span>SWIFT</span>
+                    <span>20%</span>
+                </div>
+                <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+            </div>
+
+        </div>
+
+     <div class="col-lg-3 col-md-4 col-sm-12 ">
+                <h2>Frameworks & JS Libraries</h2>
+            
+                <div class="bars">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>BOOTSTRAP</span>
+                        <span>90%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                </div>
+             
+                <div class="bars mt-4">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>REACT</span>
+                        <span>50%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                </div>
+             
+                <div class="bars mt-4">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>ANGULAR</span>
+                        <span>50%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                </div>
+            
+            </div>
+      
+            <div class="col-lg-3 col-md-4 col-sm-12 ">
+                <h2>Tools</h2>
+            
+                <div class="bars">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>ANDROID STUDIO</span>
+                        <span>90%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                </div>
+             
+                <div class="bars mt-4">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>VISUAL STUDIO</span>
+                        <span>80%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+                </div>
+             
+                <div class="bars mt-4">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>VISUAL STUDIO CODE</span>
+                        <span>90%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                </div>
+
+             
+                <div class="bars mt-4">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>BRACKETS</span>
+                        <span>50%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                </div>
+
+             
+                <div class="bars mt-4">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>CHROME DEV TOOLS</span>
+                        <span>80%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+                </div>
+            
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12 ">
+                <h2>Source Control</h2>
+            
+                <div class="bars">
+                    <div class="d-flex justify-content-between info pb-2">
+                        <span>GITHUB</span>
+                        <span>90%</span>
+                    </div>
+                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                </div>
+             
+                
+            
+            </div> -->
+
+
+<!--  </div>
+
+
+
+
+</section> -->

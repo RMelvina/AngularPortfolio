@@ -1,0 +1,34 @@
+@import "../projects-section.component.css";
+@import '../../../../../../styles.css';
+@import '../../../../shared/carousel/carousel.component.css';
+
+::ng-deep .show-all > mat-dialog-container {
+  /* background-color: rgb(2, 2, 2); */
+  border-radius: 1rem;
+  box-shadow: 0rem 0.25rem 1.25rem 0.0625rem rgba(0, 0, 0, 0.25);
+
+   /* padding: 1rem; */
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+/* ------------------ */
+/* iPad Pro/ iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Mobiles */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+}
+
+/* Galaxy Fold */
+@media only screen and (min-width: 200px) and (max-width: 280px) {
+  .carousel {
+    width: 100%;
+  }
+}
+.project-img {
+  width: 20rem;
+  height: 10rem;
+}

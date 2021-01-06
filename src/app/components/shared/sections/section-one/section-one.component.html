@@ -1,0 +1,18 @@
+<section class="container-fluid section-one d-flex align-items-center ng-view" id="sectionOne"  autoscroll="true">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="mainHeading">{{title}}</h1>
+               
+                <div class="btnCon d-flex flex-column flex-wrap">
+                    
+                        <a href={{btns.url}}  *ngFor="let btns of array">
+                            <button class="githubBtn btn mt-2" type="button" mat-raised-button>{{btns.btnName}}</button>
+                        </a>
+                   
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</section> 

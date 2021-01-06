@@ -1,0 +1,103 @@
+<section class="container-fluid section-two d-flex align-items-center mt-4 ng-view" id="sectionTwo" autoscroll="true">
+
+    <div class="container">
+        <div class="row  d-flex justify-content-center align-items-center">
+            <div class="col-12">
+                <h1 class="mainTitle learnedTitle text-center">
+                    Project
+                </h1>
+            </div>
+
+            <div class="col-lg-12 card d-flex justify-content-center align-items-center">
+            <p class="projectDesc" *ngFor="let pDescs of descArray">
+                {{pDescs.pDesc}}
+            </p>
+            <hr class="divider">
+               
+            <h2 class="subTitle mt-4">{{title}}</h2>
+                
+                <ul>
+                    <li class="lines" *ngFor="let line of lines">
+                        {{line}}
+                    </li>
+                </ul>
+            </div>
+           
+
+            <!-- <div class="col-lg-12 mt-5">
+                <h2 class="subTitle">{{title}}</h2>
+
+                <ul>
+                    <li class="lines" *ngFor="let line of lines">
+                        {{line}}
+                    </li>
+                </ul>
+            </div> -->
+
+            <!-- <div  class={{pDescs.pClass}}  *ngFor = "let pDescs of descArray" >
+               
+              
+                    <p class={{classDesc}}>
+                        {{pDescs.pDesc}}
+                    </p>
+                
+                   
+
+          
+            </div> -->
+
+
+            <!-- <div  class={{classColTwo}}>
+                <h2 class="subTitle">{{title}}</h2>
+                <ul>
+                    <li class="lines" *ngFor="let line of lines">
+                        {{line}}
+                    </li>
+                </ul>
+            </div> -->
+
+
+
+
+        </div>
+        <!-- <div class="row">
+            <div class="col-12 d-flex flex-wrap" *ngFor="let line of lines">
+                <ul>
+                    <li class="lines">
+                        {{line}}
+                    </li>
+                </ul>
+
+            </div>
+        </div> -->
+
+
+        <!-- <div class="row row-container d-flex flex-wrap bg-info"> -->
+
+
+
+
+
+
+
+
+        <!-- <div class="col-lg-6 col-md-12 col-sm-12 bg-warning " *ngFor="let line of lines">
+
+                    <ul>
+                        <li class="lines">
+                            {{line}}
+                        </li>
+                    </ul>
+
+
+
+
+
+
+                </div> -->
+
+        <!-- </div> -->
+
+    </div>
+
+</section>
