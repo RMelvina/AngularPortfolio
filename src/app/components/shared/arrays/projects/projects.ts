@@ -120,6 +120,27 @@ export const projects = [
         ],
       },
       // -------------------------
+
+      // ------Ecommerce------------
+      {
+        id: 5,
+        projectTitle: 'Cake Ecommerce ',
+        type: 'Web Application',
+        projectsImgUrl: 'assets/images/projects_6/screen1.png',
+        desc: ``,
+        btnVUrl: 'qca',
+        viewBtnUrl: '/qca',
+        btnGUrl: 'https://github.com/RMelvina/RecipesApp.git',
+        target: '_blank',
+        item: 'carousel-item ',
+        // Buttons Array
+        buttons: [
+          {
+            btnName: 'More Details',
+          },
+        ],
+      },
+      // -------------------------
     ],
   },
 ];

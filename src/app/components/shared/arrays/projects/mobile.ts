@@ -4,6 +4,7 @@ import {
   QuickCoachingAppShortDesc,
   WeatherShortDesc,
   portShortDesc,
+  cakeShortDesc,
 } from '../../String';
 export const arrayOne = [
   {
@@ -99,6 +100,25 @@ export const arrayOne = [
     btnVUrl: 'qca',
     viewBtnUrl: '/qca',
     btnGUrl: 'https://github.com/RMelvina/RecipesApp.git',
+    target: '_blank',
+    item: 'carousel-item ',
+
+    buttons: [
+      {
+        btnName: 'More Details',
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    projectTitle: 'Cake Ecommerce',
+    type: 'Web Application',
+    projectsImgUrl: 'assets/images/projects_6/screen1.png',
+    desc: cakeShortDesc,
+    btnVUrl: 'qca',
+    viewBtnUrl: '/qca',
+    btnGUrl: 'https://rmelvina.github.io/angular-ecommerce/',
     target: '_blank',
     item: 'carousel-item ',
 

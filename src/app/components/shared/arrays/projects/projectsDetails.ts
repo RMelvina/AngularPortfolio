@@ -260,11 +260,11 @@ export const projectDetails = [
     buttonsArray: [
       {
         btnName: 'Github',
-        url: 'https://github.com/timeoutmode/ADAS.git',
+        url: 'https://github.com/RMelvina/weather',
       },
       {
         btnName: 'Vist',
-        url: 'https://rmelvina.github.io/angularportfolio/',
+        url: 'https://rmelvina.github.io/weather/',
       },
     ],
     descArray: [
@@ -310,11 +310,11 @@ export const projectDetails = [
     buttonsArray: [
       {
         btnName: 'Github',
-        url: 'https://github.com/timeoutmode/ADAS.git',
+        url: 'https://github.com/RMelvina/angularportfolio',
       },
       {
         btnName: 'Vist',
-        url: 'https://rmelvina.github.io/weather/',
+        url: 'https://rmelvina.github.io/angularportfolio/',
       },
     ],
     descArray: [
@@ -366,6 +366,68 @@ export const projectDetails = [
         desc: '',
         imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
         imgUrl: 'assets/images/projects_5/screen6.png',
+        item: ' carousel-item ',
+      },
+    ],
+  },
+
+  // Cake Ecommerce
+  {
+    id: 6,
+    pTitle: 'Cake Ecommerce',
+    buttonsArray: [
+      {
+        btnName: 'Github',
+        url: 'https://github.com/RMelvina/angular-ecommerce',
+      },
+      {
+        btnName: 'Vist',
+        url: 'https://rmelvina.github.io/angular-ecommerce/',
+      },
+    ],
+    descArray: [
+      {
+        pDesc: '',
+        pClass: '',
+      },
+    ],
+    // classColOne: 'col-lg-6 overlay adas_colOneDesc colorOne',
+    classColTwo:
+      'col-lg-12 mt-5 overlay overlay_qca weather_colTwoLines colorTwo boxShadowP',
+    classDesc: 'desc',
+    title: 'What I used',
+    array: [
+      'Html \n',
+      'Css \n',
+      'Angular\n',
+      'Carousel\n',
+      'Bootstrap\n',
+      'Angular Material',
+    ],
+
+    imgsArray: [
+      {
+        desc: '',
+        imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
+        imgUrl: 'assets/images/projects_6/screen1.png',
+        item: ' carousel-item active',
+      },
+      {
+        desc: '',
+        imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
+        imgUrl: 'assets/images/projects_6/screen2.png',
+        item: ' carousel-item ',
+      },
+      {
+        desc: '',
+        imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
+        imgUrl: 'assets/images/projects_6/screen4.png',
+        item: ' carousel-item ',
+      },
+      {
+        desc: '',
+        imgC: 'img-fluid weatherImg mb-3 d-block mx-auto',
+        imgUrl: 'assets/images/projects_6/screen5.png',
         item: ' carousel-item ',
       },
     ],

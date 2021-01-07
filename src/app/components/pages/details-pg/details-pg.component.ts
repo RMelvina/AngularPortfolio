@@ -11,6 +11,7 @@ import {
   MatDialogRef,
   MAT_DIALOG_DATA,
 } from '@angular/material/dialog';
+import { HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-details-pg',
@@ -28,6 +29,7 @@ export class DetailsPgComponent implements OnInit {
   arrayTwo: any;
   projectId: any;
   id: any;
+  isScrolled = false;
 
   shown: any;
   // this.projectDetail = projectDetails.concat(projectDetails2)[+params.get('projectId')!]
@@ -68,6 +70,14 @@ export class DetailsPgComponent implements OnInit {
     //   return p.id === Number(projectDetailId);
     // });
   }
+  @HostListener('window:scroll')
+  scrollEvent() {
+    window.pageYOffset > 20
+      ? (this.isScrolled = true)
+      : (this.isScrolled = false);
+
+    
+  }
 
   toHome() {
     document.getElementById('sectionTwo')?.scrollIntoView;
@@ -90,7 +100,6 @@ export class DetailsPgComponent implements OnInit {
     if (this.projectId != projectDetails.length) {
       this.router.navigate(['/details', next]);
     }
-    
   }
 
   prevBtn() {

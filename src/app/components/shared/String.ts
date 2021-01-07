@@ -39,3 +39,7 @@ export const AdasShortDesc = `This is an android app, developed on android studi
 
  // -----------------------------------------------------------------------
  export const portShortDesc = `This is my Portfolio`;
+
+
+  // -----------------------------------------------------------------------
+ export const cakeShortDesc = `Ecommerce website of buying cakes`;

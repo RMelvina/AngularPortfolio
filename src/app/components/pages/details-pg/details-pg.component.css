@@ -11,3 +11,33 @@
     position: absolute;
     top: 40%;
 }
+.arrowUpIcon {
+  font-size: 3rem;
+  color: var(--fontColor);
+  font-weight:600;
+  position: absolute;
+  
+}
+
+.arrowUpbtn {
+   font-size: 3rem;
+   top: 90%;
+   left: 90%;
+   position: fixed;
+  color: white;
+  font-weight:600;
+  /* position: absolute; */
+  background-color: var(--bgColor);
+  transition: all 0.5s ease-in-out;
+  
+  visibility: hidden;
+}
+.arrowUpbtn:hover{
+    color: var(--fontColor);
+    background-color: transparent;
+    border: 2px solid var(--bgColor);
+}
+.showBtn{
+  visibility: visible;
+}
+

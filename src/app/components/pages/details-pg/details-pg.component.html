@@ -64,6 +64,10 @@
         <app-section-three [imgs]="projectDetail.imgsArray" (scrollUp)="scrollUp()">
         </app-section-three>
     </div>
+
+
+    <button class="btn arrowUpbtn fa fa-angle-up" [ngClass]="{'showBtn': isScrolled}" (click)="scrollUp()"></button>
+    <!-- <i class="fa fa-angle-up arrowUpIcon" (click)="scrollUp.emit()"></i> -->
 </div>
 
 <!-- </div> -->
